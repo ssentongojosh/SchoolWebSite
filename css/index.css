@@ -38,6 +38,28 @@ nav a:hover {
   border-radius: 20px;
 }
 
+footer {
+  background-color: rgb(9, 13, 61);
+  color: white;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+footer > p {
+  text-align: center;
+  background-color: gray;
+  padding-top: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(98, 101, 162);
+}
+
 body {
   min-height: 100vh;
 }
