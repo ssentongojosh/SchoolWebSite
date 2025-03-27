@@ -16,7 +16,6 @@ section.home-welcome {
   font-weight: bolder;
   color: rgb(90, 60, 60);
   box-shadow: 0 3px 3px 0 rgba(101, 110, 102, 0.4);
-<<<<<<< HEAD
 }
 
 nav {
@@ -77,11 +76,6 @@ body {
   min-height: 100vh;
   padding: 200px 0;
   margin-left: 40px;
-=======
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-left: 20px;
->>>>>>> 3d1cce95ebf72867a2e843cff983be8aec95db0f
   margin-top: 20px;
 }
 
