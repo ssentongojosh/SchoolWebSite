@@ -13,8 +13,110 @@ section.home-welcome {
   border-radius: 15px;
   font-size: larger;
   font-weight: bolder;
+
+  color: rgb(90, 60, 60);
+  box-shadow: 0 3px 3px 0 rgba(101, 110, 102, 0.4);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  padding: 0 15px;
+}
+
+label.logo {
+  margin-right: auto;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: rgba(91, 105, 198, 0.9);
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(58, 65, 138);
+  color: white;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+footer > p {
+  text-align: center;
+  background-color: gray;
+  padding-top: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(98, 101, 162);
+}
+
+body {
+  min-height:100vh;
   padding: 200px 0;
   margin-left: 40px;
   margin-top: 20px;
   color: rgb(5, 0, 8);
+
 }
+
+.headings{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.divedit{
+  background: linear-gradient(to bottom left, orange 40%, #d1b273);
+}
+
+.table{
+  border: 3px solid black;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+  
+}
+th,td{
+  border: 3px solid black;
+  padding: 10px;
+}
+
+div.divedit>p{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  margin-bottom: 5px;
+  
+}
+
+img {
+  float: left;
+  margin-right: 10px; /* Adds spacing between the image and text */
+  
+}
+
+#id1{
+  clear: both;
+  margin-top: 5px;
+}
+
