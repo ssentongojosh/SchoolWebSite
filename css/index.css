@@ -1,8 +1,9 @@
 section.home-welcome {
   display: flex;
   flex-direction: column;
+  /*
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   z-index: 1000;
   position: absolute;
   background: rgba(255, 255, 255, 0.1);
@@ -13,8 +14,52 @@ section.home-welcome {
   border-radius: 15px;
   font-size: larger;
   font-weight: bolder;
-  padding: 200px 0;
+  padding: 60px 0;
   margin-left: 40px;
   margin-top: 20px;
   color: rgb(5, 0, 8);
+}
+
+.home-welcome h2 {
+  font-size: 1.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-welcome p {
+  color: black;
+  font-size: 1.3em;
+  margin-top: auto;
+}
+
+.home-welcome h1 {
+  font-size: 2.2em;
+  color: transparent;
+  background: linear-gradient(to right, black, grey, white, cyan);
+  background-clip: text;
+  animation: gradient-change 4s ease infinite;
+  background-size: 200% 200%;
+}
+
+article .home-article1 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(right, rgb(185, 162, 31), rgb(255, 255, 255));
+}
+
+.article-title1 {
+  font-size: 3.5em;
+  text-align: center;
+  background: linear-gradient(right, #6a11cb 0%, #2575fc 100%);
+}
+
+@keyframes gradient-change {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
