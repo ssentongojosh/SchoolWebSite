@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
     <link rel="stylesheet" href="./css/index.css" />
+
     <script src="https://kit.fontawesome.com/9f44283a2e.js" crossorigin="anonymous"></script>
+
+    <script src="./js/carousel.js"></script>
+
   </head>
   <body>
     <div class="grid-container">
@@ -30,18 +36,44 @@
         </section>
         <section class="carousel">
           <div class="carousel-container">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <div class="carousel-item" id="img1">
+              <img src="assets/images/HappyStudents.jpg" alt="Happy Students" />
+            </div>
+            <div class="carousel-item" id="img2">
+              <img
+                src="assets/images/ChessPlay.jpg"
+                alt="Students Playing Chess"
+              />
+            </div>
+            <div class="carousel-item" id="img3">
+              <img src="assets/images/HallWay.jpg" alt="School Hallway" />
+            </div>
           </div>
+          <div class="carousel-indicators"></div>
         </section>
+        <article>
+          <h3>Open House Event</h3>
+          <p>
+            Come visit our campus during our Open House event to learn about our
+            facilities, meet our staff, and discover what makes our school
+            unique.
+          </p>
+        </article>
+        <article>
+          <h3>Upcoming Workshops</h3>
+          <p>
+            Join our series of educational workshops designed to enhance your
+            skills and provide insights into current academic trends.
+          </p>
+        </article>
       </main>
       <footer>
         <section id="contact">
           <h2><a href="./contact.html">Contact Us</a></h2>
+
           <p><i class="fa-solid fa-envelope">&nbsp;</i>Email: info@SecondarySchool.edu</p>
           <p><i class="fa-solid fa-phone"></i>&nbsp;Phone: (+256) 43456-7890</p>
+
         </section>
         <p>&copy; 2025 Secondary School. All rights reserved.</p>
       </footer>
