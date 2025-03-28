@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<title>Academics</title>
+</head>
+<body>
+<h1>Academics</h1>
+<h2>Subjects Offered </h2>
+<ol>
+  <li>Biology(B)</li>
+  <li>Chemistry(C)</li>
+  <li>Physics(P)</li>
+  <li>History(H)</li>
+  <li>Economics(E)</li>
+  <li>English(Eng)</li>
+  <li>Computer Studies(ICT)</li>
+  <li>Mathematics(M)</li>
+  <li>Geography(G)</li>
+  <li>Divinity(D)</li>
+  <li>Literature(L)</li>
+  <li>French(F)</li>
+  <li>Entrepreneurship(Ent)</li>
+  <li>Sub Maths(SM)</li>
+  <li>Luganda(Lug)</li>
+  <li>Kiswahili(K)</li>
+  <li>Art(A)</li>
+</ol>
+
+<h1>Course details</h1>
+<p>These are the different combinations at A level</p>
+<p>NB:</p>
+<p>1. English subject is only offered at O level</p>
+<p>2. All students at A level must offer the General paper regardless of their combination</p>
+
+<h2>Subject Combinations</h2>
+<button class="accordion">BCM/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">PCM/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">PEM/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">MEG/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">PMEnt/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">MEEnt/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HEL/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HEntL/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HEEnt/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HEG/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HEntG/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">PAM/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HED/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">DEL/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">HAD/SM</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+<button class="accordion">GEEnt/ICT</button>
+<div class="panel">
+  <p>Student must have at least a credit in the respective subjects</p>
+</div>
+
+<script src="academics.js"></script>
+
+<table border="1">
+  <thead>
+    <tr> 
+      <th>Subject</th>
+      <th>Teacher(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Biology</td>
+      <td>Mr. Kato George</td>
+    </tr>
+    <tr>
+      <td>Mrs. Kirya Daniela</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Chemistry</td>
+      <td>Mr. Katende Joseph</td>
+    </tr>
+    <tr>
+      <td>Mr. Obea Moses</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Physics</td>
+      <td>Mr. Smith Scott</td>
+    </tr>
+    <tr>
+      <td>Mr. Asiimwe Arthur</td>
+    </tr>
+    <tr>
+      <td>Mrs. Wimaana Sharon</td>
+    </tr>
+    <tr>
+      <td>History</td>
+      <td>Ms. Kasemiire Mercy</td>
+    </tr>
+    <tr>
+      <td rowspan="2">History</td>
+      <td>Mrs. Namuli Hanifah</td>
+    </tr>
+    <tr>
+      <td>Mr. Kizza Morris</td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>Ms. Audrey Ray Marie</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Computer Studies</td>
+      <td>Mr. Emaka Albert</td>
+    </tr>
+    <tr>
+      <td>Mr. AbdulRashid Isa</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Mathematics</td>
+      <td>Mrs. Kukiriza Sana</td>
+    </tr>
+    <tr>
+      <td>Mr. Anaya Anen</td>
+    </tr>
+    <tr>
+      <td>Ms. Nabukalu Gloria</td>
+    </tr>
+    <tr>
+      <td>Geography</td>
+      <td>Mrs. Arinaitwe Sarah</td>
+    </tr>
+    <tr>
+      <td>Divinity</td>
+      <td>Mr. Ambaho Taban</td>
+    </tr>
+    <tr>
+      <td>Literature</td>
+      <td>Ms. Akello Eliza</td>
+    </tr>
+    <tr>
+      <td>French</td>
+      <td>Ms. Fràŭ Dïõë Gun</td>
+    </tr>
+    <tr>
+      <td>Entrepreneurship</td>
+      <td>Mr. Were Mark</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Sub Maths</td>
+      <td>Ms. Nabukalu Gloria</td>
+    </tr>
+    <tr>
+      <td>Mrs. Kukiriza Sana</td>
+    </tr>
+    <tr>
+      <td>Luganda</td>
+      <td>Ms. Nabbosa Linda</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Kiswahili</td>
+      <td>Mr. Asante Sana</td>
+    </tr>
+    <tr>
+      <td>Ms. Ann Apio</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+      <td>Mr. Guma Guster</td>
+    </tr>
+  </tbody>
+</table>
+
+<nav>
+  <a href="index.html">Index</a>
+  <a href="about.html">About Us</a>
+  <a href="news.html">News</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+</body>
+</html>
