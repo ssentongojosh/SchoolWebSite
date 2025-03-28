@@ -14,6 +14,7 @@
     ></script>
 
     <script src="./js/carousel.js"></script>
+    <script src="./js/main.js"></script>
   </head>
   <body>
     <div class="grid-container">
@@ -54,6 +55,19 @@
           </ul>
           <div class="bar"></div>
         </nav>
+        <div class="toggle">
+          <input
+            type="checkbox"
+            id="darkMode"
+            class="checkbox"
+            onmousedown="toggle()"
+          />
+          <label for="darkMode" class="theme">
+            <span class="icon">☀️</span>
+            <span class="icon">🌙</span>
+            <span class="handle"></span>
+          </label>
+        </div>
       </header>
       <main>
         <section class="home-welcome">

@@ -1,9 +1,6 @@
 section.home-welcome {
   display: flex;
   flex-direction: column;
-  /*
-  justify-content: center;
-  align-items: center; */
   z-index: 1000;
   position: absolute;
   background: rgba(255, 255, 255, 0.1);
@@ -15,11 +12,10 @@ section.home-welcome {
   font-size: larger;
   font-weight: bolder;
   color: rgb(90, 60, 60);
-  box-shadow: 0 3px 3px 0 rgba(101, 110, 102, 0.4);
   padding-top: 40px;
   padding-bottom: 40px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .home-welcome h2 {
@@ -27,9 +23,14 @@ section.home-welcome {
   color: black;
 }
 
+.home-welcome p {
+  color: black;
+  padding-top: 60px;
+}
+
 .home-welcome h1 {
   font-size: 2.2em;
-  background: linear-gradient(to right, black, white, cyan);
+  background: linear-gradient(to right, black, rgb(107, 51, 51), cyan);
   background-size: 200% 200%;
   color: transparent;
   background-clip: text;
