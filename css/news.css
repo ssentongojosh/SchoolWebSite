@@ -88,3 +88,126 @@ footer a {
   text-decoration: none;
   color: rgb(98, 101, 162);
 }
+
+div.calender {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 203, 252);
+  justify-content: space-around;
+}
+
+div.calenderTitle {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px transparent white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  border: 1px transparent #000;
+  min-height: 450px;
+  min-width: 450px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: cornflowerblue;
+}
+
+.weekDays,
+#dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  color: white;
+  gap: 3px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  font-weight: bolder;
+  font-size: 1.1em;
+  border-radius: 20%;
+  border-style: none;
+  padding: 10px;
+  background-color: rgb(112, 203, 252);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(1, 10, 132);
+  color: white;
+}
+span {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+#dates div {
+  padding: 20px;
+  background-color: rgb(9, 113, 161);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex-grow: 0;
+}
+
+#dates div.today {
+  background-color: rgb(23, 169, 3);
+}
+
+#dates div.event {
+  position: relative;
+  background-color: rgb(2, 47, 182);
+  display: flex;
+  cursor: pointer;
+}
+
+#dates div.event span {
+  position: absolute;
+  border: 1px tomato solid;
+  border-radius: 50%;
+  /* z-index: 1;
+  bottom: 0;
+  right: 0; */
+}
+
+#dialog {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+#dialog.show {
+  display: flex; /* Show the dialog box */
+}
+
+.dialog-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-content .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -6,24 +6,52 @@
     <title>Announcements</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/global.css" />
-    <script src="https://kit.fontawesome.com/9f44283a2e.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="img/web-icon.png"/>
-    <link rel="stylesheet" href="./css/news.css"/>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/9f44283a2e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="img/web-icon.png" />
+    <link rel="stylesheet" href="./css/news.css" />
+    <script src="./js/calender.js" defer></script>
+  </head>
+  <body>
     <header>
-        <nav>
-          <label class="logo">Uganda Matrtyrs Secondary School</label>
-          <ul>
-            <li><a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
-            <li><a href="./academics.html"><i class="fa-solid fa-book"></i>&nbsp;Academics</a></li>
-            <li><a href="./news.html"><i class="fa-solid fa-newspaper"></i>&nbsp;News</a></li>
-            <li><a href="./gallery.html"><i class="fa-solid fa-images"></i>&nbsp;Gallery</a></li>
-            <li><a href="./about.html"><i class="fa-solid fa-medal"></i>&nbsp;AboutUs</a></li>
-            <li><a href="./contact.html"><i class="fa-solid fa-phone">&nbsp;</i>ContactUs</a></li>
-          </ul>
-          <div class="bar"></div>
-        </nav>
+      <nav>
+        <label class="logo">Uganda Matrtyrs Secondary School</label>
+        <ul>
+          <li>
+            <a href="./index.html"
+              ><i class="fa-solid fa-house"></i>&nbsp;Home</a
+            >
+          </li>
+          <li>
+            <a href="./academics.html"
+              ><i class="fa-solid fa-book"></i>&nbsp;Academics</a
+            >
+          </li>
+          <li>
+            <a href="./news.html"
+              ><i class="fa-solid fa-newspaper"></i>&nbsp;News</a
+            >
+          </li>
+          <li>
+            <a href="./gallery.html"
+              ><i class="fa-solid fa-images"></i>&nbsp;Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./about.html"
+              ><i class="fa-solid fa-medal"></i>&nbsp;AboutUs</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html"
+              ><i class="fa-solid fa-phone">&nbsp;</i>ContactUs</a
+            >
+          </li>
+        </ul>
+        <div class="bar"></div>
+      </nav>
     </header>
     <div class="divedit">
       <h1 class="headings">OPENING DATE FOR TERM 1</h1>
@@ -121,6 +149,36 @@
       </table>
     </div>
     <p></p>
+    <div class="calender">
+      <div class="calenderTitle"><h1>Our Events Calender</h1></div>
+      <div class="container" id="calender">
+        <div class="btns" id="header">
+          <button id="prev" class="btn" onclick="previousMonth()"><</button>
+          <span id="month"></span>
+          <button id="next" class="btn" onclick="nextMonth()">></button>
+        </div>
+        <div class="weekDays" id="days">
+          <span>Sun</span>
+          <span>Mon</span>
+          <span>Tue</span>
+          <span>Wed</span>
+          <span>Thur</span>
+          <span>Fri</span>
+          <span>Sat</span>
+        </div>
+        <div id="dates"></div>
+      </div>
+      <div id="dialog" class="dialog">
+        <div class="dialog-content">
+          <div class="content">
+            <span class="close">&times;</span>
+            <h2 id="title">Event Details</h2>
+            <p id="description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <section id="contact">
         <h2><a href="./contact.html">Contact Us</a></h2>
