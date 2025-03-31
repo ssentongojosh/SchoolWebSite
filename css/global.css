@@ -116,6 +116,14 @@ body {
   display: none;
 }
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #6a11cb;
+  --toggle-bg: #f0f0f0;
+  --toggle-handle: #ffffff;
+}
+
 [data-theme="dark"] {
   --bg-color: #1a1a1a;
   --text-color: #f0f0f0;
@@ -124,10 +132,19 @@ body {
   --toggle-handle: #4d4d4d;
 }
 
-:root {
-  --bg-color: #ffffff;
-  --text-color: #333333;
-  --primary-color: #6a11cb;
-  --toggle-bg: #f0f0f0;
-  --toggle-handle: #ffffff;
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header, footer {
+  background-color: var(--primary-color);
+}
+
+.theme {
+  background: var(--toggle-bg);
+}
+
+.handle {
+  background: var(--toggle-handle);
 }

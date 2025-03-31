@@ -37,6 +37,70 @@ section.home-welcome {
   animation: gradientshift 4s ease infinite;
 }
 
+.home-article1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  min-height: 500px;
+  margin: 0;
+}
+
+.article-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 750px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.article-title1 {
+  font-size: 5em;
+  background: linear-gradient(120deg, rgb(110, 1, 110), rgb(218, 91, 218));
+  background-clip: text;
+  color: transparent;
+}
+
+.article-content1 div.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  min-width: 700px;
+  size: 2em;
+}
+
+button.explore {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-style: none;
+  font-size: larger;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+}
+
+button.join {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border-style: none;
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+}
+
+.article-content1 p {
+  font-size: 1.5em;
+  color: black;
+  margin-top: 0;
+}
+
 @keyframes gradientshift {
   0% {
     background-position: 0% 50%;
