@@ -4,8 +4,13 @@
   text-decoration: underline;
 }
 
+.headings:first-child{
+  margin: 0;
+}
+
 .divedit {
   background: linear-gradient(to bottom left, orange 40%, #d1b273);
+  
 }
 
 .table {
@@ -37,11 +42,11 @@ img {
   margin-top: 5px;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
+} */
 
 ul {
   list-style: none;
@@ -57,15 +62,15 @@ li a {
   padding: 0 15px;
 }
 
-label.logo {
+/* label.logo {
   margin-right: auto;
   padding: 20px;
-}
+} */
 
-nav a:hover {
+/* nav a:hover {
   background-color: rgba(91, 105, 198, 0.9);
   border-radius: 20px;
-}
+} */
 
 footer {
   background-color: rgb(58, 65, 138);
@@ -143,7 +148,9 @@ div.calenderTitle {
   background-color: rgb(1, 10, 132);
   color: white;
 }
-span {
+#days,
+#month,
+.close span {
   padding: 10px;
   font-weight: bolder;
 }
@@ -169,10 +176,14 @@ span {
   cursor: pointer;
 }
 
-#dates div.event span {
+#dates div.event span.marker {
   position: absolute;
-  border: 1px tomato solid;
+  background-color: tomato;
   border-radius: 50%;
+  height:5px ;
+  width: 5px;
+  right: 0;
+  bottom: 0;
   /* z-index: 1;
   bottom: 0;
   right: 0; */

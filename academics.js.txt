@@ -1,7 +1,0 @@
-$(document).ready(function(){
-$("accordion").click(function(){var panel=$
-(this).next("panel");
-panel.slideToggle();
-$("panel").not(panel).slideUp();
-});
-});

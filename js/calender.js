@@ -64,7 +64,6 @@ closeDialog.addEventListener("click", () => {
   dialog.classList.remove("show");
 });
 
-
 // window.addEventListener("click", (event) => {
 //   if (event.target === dialog) {
 //     dialog.classList.remove("show");

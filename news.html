@@ -6,6 +6,8 @@
     <title>Announcements</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/global.css" />
+
+    <script src="./js/main.js" defer></script>
     <script
       src="https://kit.fontawesome.com/9f44283a2e.js"
       crossorigin="anonymous"
@@ -17,7 +19,10 @@
   <body>
     <header>
       <nav>
-        <label class="logo">Uganda Matrtyrs Secondary School</label>
+        <label class="logo"
+        ><img src="./assets/images/SchoolBadge.jpg" alt="school Bagde" />
+        <p class="SchoolName">St Mary's Kitende</p></label
+      >
         <ul>
           <li>
             <a href="./index.html"
@@ -52,6 +57,19 @@
         </ul>
         <div class="bar"></div>
       </nav>
+      <div class="toggle">
+        <input
+          type="checkbox"
+          id="darkMode"
+          class="checkbox"
+          onmousedown="toggle()"
+        />
+        <label for="darkMode" class="theme">
+          <span class="icon">☀️</span>
+          <span class="icon">🌙</span>
+          <span class="handle"></span>
+        </label>
+      </div>
     </header>
     <div class="divedit">
       <h1 class="headings">OPENING DATE FOR TERM 1</h1>

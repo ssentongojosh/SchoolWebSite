@@ -1,0 +1,203 @@
+div.ac {
+  display: flex;
+  background-image: url(../assets/images/ComputerLab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.title {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  top: 10px;
+  backdrop-filter: blur(10px);
+  max-width: 80%;
+}
+
+div.ac > div.title > h1 {
+  font-size: 5em;
+  text-align: center;
+  margin-top: 0;
+  margin: 10px;
+  color: aliceblue;
+}
+
+div.title h2 {
+  font-size: 3em;
+  text-align: center;
+  background: linear-gradient(to left, rgb(175, 172, 72), pink);
+  background-clip: text;
+  color: transparent;
+}
+
+h1.head1 {
+  background: linear-gradient(to right, rgb(78, 2, 57), rgb(171, 100, 200));
+  font-size: 5em;
+  text-align: center;
+  background-clip: text;
+  color: transparent;
+  margin-top: 0;
+}
+
+h2 .head2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.subjects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 90%;
+  padding-top: 140px;
+}
+
+.subjects-list li {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: transparent;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  overflow-wrap: break-word;
+  border-radius: 10px;
+  font-size: 0.95em;
+  hyphens: auto;
+  align-content: center;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  backdrop-filter: blur(10px);
+  color: rgb(1, 0, 7);
+  font-family: "Courier New", Courier, monospace;
+  /* animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 80%; */
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: background-color 0.4s;
+  font-size: 16px;
+  position: relative;
+  border-radius: 10px;
+  font-size: clamp(1rem, 1vw + 1rem, 1.5rem);
+  flex-grow: 0;
+}
+
+.accordion:hover {
+  background-color: #0b74b5;
+  color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: transparent;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.subject {
+  display: flex;
+  flex-direction: column;
+}
+
+div.combi {
+  background-color: rgb(204, 204, 212);
+}
+
+div.note {
+  text-align: center;
+  background-color: #c4e4e2;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+  max-width: 75%;
+
+  margin: auto;
+}
+
+.note p {
+  font-size: larger;
+}
+
+div.teachers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(169, 188, 197);
+}
+
+div.TableName {
+  font-size: 2em;
+}
+
+table,
+thead,
+th,
+tr,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px 50px;
+}
+
+thead tr {
+  background-color: #009879;
+  color: white;
+  font-weight: bolder;
+}
+
+tbody tr td:first-child {
+  color: rgb(46, 250, 233);
+}
+
+tbody tr {
+  border-bottom: 2px solid gray;
+  font-size: larger;
+}
+
+tbody tr:last-child {
+  border-bottom: 4px solid #009879;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}

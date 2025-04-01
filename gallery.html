@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/global.css" />
+
+    <script src="./js/main.js" defer></script>
     <script
       src="https://kit.fontawesome.com/9f44283a2e.js"
       crossorigin="anonymous"
@@ -14,7 +16,10 @@
   <body>
     <header>
       <nav>
-        <label class="logo">Secondary School</label>
+        <label class="logo"
+        ><img src="./assets/images/SchoolBadge.jpg" alt="school Bagde" />
+        <p class="SchoolName">St Mary's Kitende</p></label
+      >
         <ul>
           <li>
             <a href="./index.html"
@@ -49,6 +54,19 @@
         </ul>
         <div class="bar"></div>
       </nav>
+      <div class="toggle">
+        <input
+          type="checkbox"
+          id="darkMode"
+          class="checkbox"
+          onmousedown="toggle()"
+        />
+        <label for="darkMode" class="theme">
+          <span class="icon">☀️</span>
+          <span class="icon">🌙</span>
+          <span class="handle"></span>
+        </label>
+      </div>
     </header>
     <!-- your content goes here -->
     <!-- your content goes here -->
