@@ -1,0 +1,111 @@
+/*General  page styling -*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h5{
+    color: brown;
+    font-size: medium;
+}
+label.logo {
+    text-align: left;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 25px;
+    text-shadow: 5px 0px 5px rgb(58, 65, 138), -5px 5px 5px white;
+}
+.imxage-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+  
+  figure {
+    margin: 10px;
+    text-align: center;
+}
+
+  img{
+    width: 200px;
+    height: auto;
+  }
+  
+header{
+    display:flex;
+    flex-direction: row;
+    background: beige;
+    color: rgb(43, 42, 42);
+    padding: 15px;
+    justify-content: space-between;
+}
+.left,.middle,.right{
+display:flex;
+}
+#history, #mission, #vision, #values{
+    font-size: 30px;
+}
+/*Navigation menu */
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+ nav ul li {
+    display: inline;
+    margin: 0 15px;
+ }
+ nav ol li {
+    display: inline;
+    margin:  15px;
+ }
+ nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ /*tabs styling*/
+.tabs{
+    margin: 20px 0;
+}
+.tab-btn{
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: beige;
+    color: black;
+    text-decoration: none;
+   display: inline-block;
+   border-radius: 5px;
+}
+.tab-btn:hover{
+    background: beige;
+}
+section{
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid bisque;
+    background: beige;
+}
+html{
+    scroll-behavior: smooth;
+}
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: beige;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+#backToTop:hover{
+    background-color: beige;
+}
