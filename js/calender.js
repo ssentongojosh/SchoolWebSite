@@ -65,11 +65,11 @@ closeDialog.addEventListener("click", () => {
 });
 
 
-window.addEventListener("click", (event) => {
-  if (event.target === dialog) {
-    dialog.classList.remove("show");
-  }
-});
+// window.addEventListener("click", (event) => {
+//   if (event.target === dialog) {
+//     dialog.classList.remove("show");
+//   }
+// });
 
 function previousMonth() {
   date.setMonth(date.getMonth() - 1);
