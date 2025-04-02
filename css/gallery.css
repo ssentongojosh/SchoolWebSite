@@ -1,0 +1,71 @@
+section.prefects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.prefects h2 {
+  font-size: 3em;
+  background: linear-gradient(to right, rgb(114, 1, 61), rgb(78, 1, 161));
+  background-clip: text;
+  color: transparent;
+}
+
+.prefect-image img {
+  height: 435px;
+  width: 700px;
+  margin-left: 5px;
+}
+
+.prefect-pool {
+  display: flex;
+}
+
+.description span {
+  font-size: xx-large;
+  text-align: center;
+  padding: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(141, 144, 143);
+  margin: 0;
+}
+
+.prefecture-body {
+  min-width: 100%;
+  background-color: rgb(211, 200, 188);
+  text-align: center;
+}
+
+.culture {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.culture-show {
+  grid-area: 1/1/2/5;
+  text-align: center;
+  background-color: rgb(211, 200, 188);
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.culture img {
+  height: 150px;
+  width: 200px;
+  
+}
+
+.culture-show h2{
+    font-size: 3em;
+    
+}

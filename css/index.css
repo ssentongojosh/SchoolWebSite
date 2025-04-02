@@ -30,11 +30,11 @@ section.home-welcome {
 
 .home-welcome h1 {
   font-size: 2.2em;
-  background: linear-gradient(to right, black, rgb(107, 51, 51), cyan);
+  background: linear-gradient(to right, rgb(64, 204, 4), rgb(239, 224, 7), cyan);
   background-size: 200% 200%;
   color: transparent;
   background-clip: text;
-  animation: gradientshift 4s ease infinite;
+  animation: gradientshift 5s ease infinite;
 }
 
 .home-article1 {

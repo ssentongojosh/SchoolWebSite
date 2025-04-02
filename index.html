@@ -136,8 +136,15 @@
               unique.
             </p>
             <div class="buttons">
-              <button class="explore">Explore School</button>
-              <button class="join">Join Us</button>
+              <button
+                class="explore"
+                onclick="document.location='./gallery.html'"
+              >
+                Explore School
+              </button>
+              <button class="join" onclick="document.location='./contact.html'">
+                Join Us
+              </button>
             </div>
           </div>
         </article>
@@ -183,29 +190,70 @@
       </main>
       <section class="testimonial-container">
         <div class="testimonial">
-          <p>"Taking my child to St Mary's is one of the best decisions I've made.The dedicated teachers, excellent curriculum, and supportive environment have helped my child grow academically and socially."</p>
+          <p>
+            "Taking my child to St Mary's is one of the best decisions I've
+            made.The dedicated teachers, excellent curriculum, and supportive
+            environment have helped my child grow academically and socially."
+          </p>
           <h4>-David Ssegawa, Parent</h4>
         </div>
         <div class="testimonial">
-          <p>"Enrolling my child at St Mary's Kitende has been the best decision for our family. We feel truly blessed to be part of this wonderful school community!"</p>
+          <p>
+            "Enrolling my child at St Mary's Kitende has been the best decision
+            for our family. We feel truly blessed to be part of this wonderful
+            school community!"
+          </p>
           <h4>-Sarah Chebet, Parent</h4>
         </div>
         <div class="testimonial">
-          <p>"Looking back, my years at St Mary's were some of the most formative of my life. The strong academic foundation and leadership opportunities, prepared me for University. I’m forever grateful!"</p>
+          <p>
+            "Looking back, my years at St Mary's were some of the most formative
+            of my life. The strong academic foundation and leadership
+            opportunities, prepared me for University. I’m forever grateful!"
+          </p>
           <h4>-Godfrey Muwayire, Alumni</h4>
         </div>
       </section>
       <footer>
-        <section id="contact">
-          <h2><a href="./contact.html">Contact Us</a></h2>
-
-          <p>
-            <i class="fa-solid fa-envelope">&nbsp;</i>Email:
-            info@SecondarySchool.edu
-          </p>
-          <p><i class="fa-solid fa-phone"></i>&nbsp;Phone: (+256) 43456-7890</p>
-        </section>
-        <p>&copy; 2025 Secondary School. All rights reserved.</p>
+        <div class="footer">
+          <div class="badge">
+            <img src="./assets/images/SchoolBadge.jpg" alt="" />
+          </div>
+          <div class="quick">
+            <h4>Quick links</h4>
+            <a href="index.html">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="news.html">News</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+          </div>
+          <div class="contact">
+            <h4>Contact</h4>
+            <p>
+              <i class="fa-solid fa-phone"></i>&nbsp;Phone: (+256) 43456-7890
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope">&nbsp;</i>Email:
+              <a href="mailto:info@SecondarySchool.edu"
+                >info@SecondarySchool.edu</a
+              >
+            </p>
+            <p>location: Kitende along Gayaza Road</p>
+          </div>
+          <div class="social">
+            <h4>Socials</h4>
+            <div class="social-icons">
+              <span class="fas fa-facebook"></span>
+              <span class="fas fa-twitter"></span>
+              <span class="fas fa-linkedin"></span>
+              <span class="fas fa-whatsapp"></span>
+            </div>
+          </div>
+        </div>
+        <p>
+          &copy; 2025 St Mary's Kitende Secondary School. All rights reserved.
+        </p>
       </footer>
     </div>
   </body>

@@ -165,3 +165,58 @@ footer {
 .handle {
   background: var(--toggle-handle);
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+div.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.badge img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px 0 ;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+div.quick {
+  display: flex;
+  flex-direction: column;
+}
+
+div.social {
+  margin-right: 5px;
+}
+
+.quick a{
+  color: aliceblue;
+}
+
+.quick a:hover{
+  color: cornflowerblue;
+}
+
+.contact a{
+  color: rgb(199, 199, 227);
+}
+
+.join:hover{
+  background-color: cornflowerblue;
+  color: white;
+
+}
+
+.explore:hover{
+  background-color: aquamarine;
+  color: black;
+
+}
