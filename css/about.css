@@ -6,8 +6,8 @@
   }
   
   .tab-btn {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: navy;
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -30,7 +30,7 @@
   
   .tab-content.active {
     display: block;
-  }
+  }*/
   
   /* Accordion */
   .accordion-item {
