@@ -101,6 +101,187 @@ button.join {
   margin-top: 0;
 }
 
+div.headteacher {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  max-width: 85%;
+}
+
+div.image img {
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+}
+
+div.message {
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+div.headteacher span.title h1 {
+  font-size: 4em;
+  background: linear-gradient(
+    to right,
+    rgb(2, 2, 139) 40%,
+    rgb(98, 1, 136) 60%
+  );
+  color: transparent;
+  background-clip: text;
+}
+
+.message div.regards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.message div.regards h4 {
+  margin: 0;
+}
+
+article.Events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 90%;
+  margin: 20px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.event a {
+  text-decoration: none;
+  background-color: cornflowerblue;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.event-title h3 {
+  color: rgb(238, 18, 216);
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.event a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.content p {
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.testimonial-container {
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  max-width: 850px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.testimonial {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* display: none; */
+  /* animation: fadeIn 1s ease-in-out; */
+  background-color: rgb(251, 250, 249);
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+
+  max-height: 140px;
+  /* display: flex;
+  flex-direction: column;*/
+  position: absolute;
+  padding-top: 0;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 1s ease-in-out;
+  width: 100%;
+  top: 0;
+  visibility: hidden;
+  margin: auto;
+}
+
+.testimonial.active {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.testimonial.prev {
+  transform: translateX(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.testimonial h4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* padding-bottom: 0; */
+  margin-bottom: 0;
+  color: tomato;
+  padding-top: 15px;
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 @keyframes gradientshift {
   0% {
