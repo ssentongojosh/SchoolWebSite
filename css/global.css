@@ -220,3 +220,18 @@ div.social {
   color: black;
 
 }
+
+.social-icons {
+  margin: 10px;
+  padding: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.social h4{
+  text-align: center;
+}
+
+.fa-twitter { color: #1DA1F2; }  
+.fa-linkedin { color: #0077b5; } 
+.fa-whatsapp { color: #25D366; }  
