@@ -1,12 +1,10 @@
-/* Styling for the divedit section */
 .divedit {
-  background-color: #f5f5f5; /* Soft light gray */
+  background-color: #f5f5f5;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for paragraphs inside divedit */
 .divedit p {
   font-size: 16px;
   line-height: 1.6;
@@ -14,35 +12,31 @@
   margin-bottom: 15px;
   text-align: justify;
   display: flex;
-  align-items: center; /* Aligns text with the image */
-  gap: 10px; /* Adds spacing between the image and text */
+  align-items: center;
+  gap: 10px;
 }
 
-/* Styling for images inside paragraphs */
-.divedit p img {
-  width: 60px; /* Adjust size as needed */
+/* .divedit p img {
+  width: 60px; 
   height: auto;
-  border-radius: 5px; /* Slight rounding for a modern look */
+  border-radius: 5px; 
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-}
+} */
 
-/* Styling for each news item (heading + paragraph) */
 .news-item {
   background-color: #ffffff;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for the headings inside news-item */
 .news-heading {
   font-size: 20px;
-  color: #2c3e50; /* Dark blue-gray for better contrast */
+  color: #2c3e50;
   margin-bottom: 10px;
 }
 
-/* Styling for paragraphs inside news-item */
 .news-item p {
   font-size: 16px;
   line-height: 1.6;
@@ -53,14 +47,12 @@
   gap: 10px;
 }
 
-/* Styling for images inside paragraphs in news-item */
-.news-item p img {
+/* .news-item p img {
   width: 70px;
   height: auto;
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-}
-
+} */
 
 .table {
   border: 3px solid black;
@@ -81,21 +73,14 @@ div.divedit > p {
   margin-bottom: 5px;
 }
 
-img {
+/* img {
   float: left;
-  margin-right: 10px; /* Adds spacing between the image and text */
-}
+  margin-right: 10px; } */
 
 #id1 {
   clear: both;
   margin-top: 5px;
 }
-
-/* nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-} */
 
 ul {
   list-style: none;
@@ -110,16 +95,6 @@ li a {
   color: rgb(255, 255, 255);
   padding: 0 15px;
 }
-
-/* label.logo {
-  margin-right: auto;
-  padding: 20px;
-} */
-
-/* nav a:hover {
-  background-color: rgba(91, 105, 198, 0.9);
-  border-radius: 20px;
-} */
 
 footer {
   background-color: rgb(58, 65, 138);
@@ -229,13 +204,10 @@ div.calenderTitle {
   position: absolute;
   background-color: tomato;
   border-radius: 50%;
-  height:5px ;
+  height: 5px;
   width: 5px;
   right: 0;
   bottom: 0;
-  /* z-index: 1;
-  bottom: 0;
-  right: 0; */
 }
 
 #dialog {
@@ -246,13 +218,13 @@ div.calenderTitle {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
 }
 
 #dialog.show {
-  display: flex; /* Show the dialog box */
+  display: flex;
 }
 
 .dialog-content {
