@@ -2,13 +2,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleSwitch = document.getElementById("darkMode");
   const currentTheme = localStorage.getItem("theme");
 
-  // Apply the saved theme on page load
   if (currentTheme) {
     document.documentElement.setAttribute("data-theme", currentTheme);
     toggleSwitch.checked = currentTheme === "dark";
   }
 
-  // Toggle theme on checkbox change
+ 
   toggleSwitch.addEventListener("change", () => {
     if (toggleSwitch.checked) {
       document.documentElement.setAttribute("data-theme", "dark");
@@ -18,4 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("theme", "light");
     }
   });
+
+  document.querySelector('.nav-toggle').addEventListener('click', () => {
+    document.querySelector('ul').classList.toggle('active');
+  });
+
 });

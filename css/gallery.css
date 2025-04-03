@@ -3,29 +3,39 @@ section.prefects {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 section.prefects h2 {
-  font-size: 3em;
+  font-size: clamp(2rem, 5vw, 3em);
   background: linear-gradient(to right, rgb(114, 1, 61), rgb(78, 1, 161));
   background-clip: text;
   color: transparent;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .prefect-image img {
-  height: 435px;
-  width: 700px;
-  margin-left: 5px;
+  height: auto;
+  max-width: 100%;
+  width: min(700px, 90%);
+  margin: 0 auto;
+  display: block;
 }
 
 .prefect-pool {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 15px;
 }
 
 .description span {
-  font-size: xx-large;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   text-align: center;
   padding: 10px;
+  display: block;
 }
 
 .description {
@@ -34,38 +44,81 @@ section.prefects h2 {
   align-items: center;
   background-color: rgb(141, 144, 143);
   margin: 0;
+  width: 100%;
 }
 
 .prefecture-body {
-  min-width: 100%;
+  width: 100%;
   background-color: rgb(211, 200, 188);
   text-align: center;
+  padding: 20px 0;
 }
 
 .culture {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
   justify-content: center;
   align-items: center;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .culture-show {
-  grid-area: 1/1/2/5;
+  grid-column: 1 / -1;
   text-align: center;
   background-color: rgb(211, 200, 188);
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
+  padding: 15px;
 }
 
 .culture img {
-  height: 150px;
-  width: 200px;
-  
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
 }
 
-.culture-show h2{
-    font-size: 3em;
-    
+.culture-show h2 {
+  font-size: clamp(2rem, 5vw, 3em);
+  margin: 0.5em 0;
+}
+
+
+@media (max-width: 1024px) {
+  .culture {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .prefect-pool {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .culture {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .culture img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .culture {
+    grid-template-columns: 1fr;
+  }
+
+  .description span {
+    padding: 5px;
+  }
+
+  .culture-show h2 {
+    font-size: 2rem;
+  }
 }
