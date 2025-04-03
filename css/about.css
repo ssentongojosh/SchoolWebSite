@@ -1,158 +1,72 @@
-/*General  page styling -*/
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-h5{
-    color: brown;
-    font-size: medium;
-}
-label.logo {
-    text-align: left;
-    margin-right: auto;
-    padding: 20px;
-    font-size: 25px;
-    text-shadow: 5px 0px 5px rgb(58, 65, 138), -5px 5px 5px white;
-}
 
-  
-header{
-    display:flex;
-    flex-direction: row;
-    background: beige;
-    color: rgb(43, 42, 42);
-    padding: 15px;
-    justify-content: space-between;
-}
-.left,.middle,.right{
-display:flex;
-}
-#history, #mission, #vision, #values{
-    font-size: 30px;
-}
-/*Navigation menu */
-nav ul{
-    list-style: none;
-    padding: 0;
-}
- nav ul li {
-    display: inline;
-    margin: 0 15px;
- }
- nav ol li {
-    display: inline;
-    margin:  15px;
- }
- nav ul li a{
-    color: black;
-    text-decoration: none;
-}
-nav ul li a.active{
-    font-weight: bold;
-    text-decoration: underline;
-}
-
- /*tabs styling*/
-.tabs{
-    margin: 20px 0;
-}
-.tab-btn{
-    padding: 10px 15px;
-    margin: 5px;
-    border: none;
-    background: beige;
-    color: black;
-    text-decoration: none;
-   display: inline-block;
-   border-radius: 5px;
-}
-.tab-btn:hover{
-    background: beige;
-}
-section{
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    border: 1px solid bisque;
-    background: beige;
-}
-html{
-    scroll-behavior: smooth;
-}
-#backToTop{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    background-color: beige;
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: none;
-}
-#backToTop:hover{
-    background-color: beige;
-}
-/* Tabs styles */
 .tabs {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
-  .tab-btn {
-    background-color: navy;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s ease;
-  }
-  
-  .tab-btn:hover {
-    background-color: rgba(91, 105, 198, 0.9);
-  }
-  
-  .tab-btn.active {
-    background-color: rgb(106, 119, 119);
-  }
-  
-  /* Tab Content */
-  .tab-content {
-    display: none;
-  }
-  
-  .tab-content.active {
-    display: block;
-  }*/
-  
-  /* Accordion */
-  .accordion-item {
-    margin: 10px 0;
-  }
-  
-  .accordion-btn {
-    background-color: rgb(9, 13, 61);
-    color: white;
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .accordion-btn:hover {
-    background-color: rgb(98, 101, 162);
-  }
-  
-  .accordion-content {
-    display: none;
-    padding: 10px;
-    background: #f9f9f9;
-    border-radius: 5px;
-  }
+  margin: 20px 0;
+  padding: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  background-color: navy;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: rgba(0, 0, 128, 0.9);
+}
+
+.tab-btn.active {
+  background-color: rgb(106, 119, 119);
+  color: white;
+}
+
+.tab-contents {
+  background: beige;
+  padding: 20px;
+  border: 1px solid bisque;
+  border-radius: 5px;
+}
+
+.tab-content {
+  display: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+section.tab-content h2 {
+  color: navy;
+  margin-bottom: 15px;
+}
+
+section.tab-content p {
+  line-height: 1.6;
+}
+
+section.tab-content ol {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.tab-buttons a:hover {
+  color: rgb(0, 0, 0);
+  background-color: blueviolet;
+}
