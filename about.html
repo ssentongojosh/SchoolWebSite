@@ -4,6 +4,148 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
+    <link rel="stylesheet" href="./css/global.css" />
+
+    <script src="./js/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/9f44283a2e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <label class="logo"
+            ><img src="./assets/images/SchoolBadge.jpg" alt="school Bagde" />
+            <p class="SchoolName">St Mary's Kitende</p></label
+          >
+        <ul>
+          <li>
+            <a href="./index.html"
+              ><i class="fa-solid fa-house"></i>&nbsp;Home</a
+            >
+          </li>
+          <li>
+            <a href="./academics.html"
+              ><i class="fa-solid fa-book"></i>&nbsp;Academics</a
+            >
+          </li>
+          <li>
+            <a href="./news.html"
+              ><i class="fa-solid fa-newspaper"></i>&nbsp;News</a
+            >
+          </li>
+          <li>
+            <a href="./gallery.html"
+              ><i class="fa-solid fa-images"></i>&nbsp;Gallery</a
+            >
+          </li>
+          <li>
+            <a href="./about.html"
+              ><i class="fa-solid fa-medal"></i>&nbsp;AboutUs</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html"
+              ><i class="fa-solid fa-phone">&nbsp;</i>ContactUs</a
+            >
+          </li>
+        </ul>
+        <div class="bar"></div>
+      </nav>
+      <div class="toggle">
+        <input
+          type="checkbox"
+          id="darkMode"
+          class="checkbox"
+          onmousedown="toggle()"
+        />
+        <label for="darkMode" class="theme">
+          <span class="icon">☀️</span>
+          <span class="icon">🌙</span>
+          <span class="handle"></span>
+        </label>
+      </div>
+    </header>
+    <section class="tabs">
+      <!--buttons for the mission, vision, history and school core values-->
+      
+          <a href="#history" class="tab-btn">History</a>
+          <a href="#mission" class="tab-btn">Mission</a>
+          <a href="#vision" class="tab-btn">Vision</a>
+          <a href="#values" class="tab-btn">Core Values</a>
+  <!--the content of the above buttons-->
+  <section id="history" class="tab-content active">
+      <h2>Our History</h2>
+      <p>The Uganda Martyrs were killed in 1886, but guided the founders, 81 years later, on the name Uganda Martyrs’ S.S Namugongo. The inspiration of the martyrs had been such that they are extolled in the school anthem and are implored daily to intercede for and bestow blessings on the school community.</p>
+       <h5>FOUNDERS</h5>
+       <div class="image-grid">
+          <div><figure>
+              <img src="img/Mr. Jeremiah Munyigwa (R.I.P).png" alt="Mr. Jeremiah Munyigwa (R.I.P)"> 
+              <figcaption>Mr. Jeremiah Munyigwa (R.I.P)</figcaption>
+          </figure>
+      </div>
+          <div>
+              <figure>
+                  <img src="img/Mr. Joseph Mugerwa.png" alt="Mr. Joseph Mugerwa"> 
+                  <figcaption>Mr. Joseph Mugerwa</figcaption>
+              </figure>
+          </div>
+          <div>
+              <figure>
+                  <img src="img/Mr. Lawrence Mbwega.png" alt="Mr. Lawrence Mbwega">
+                  <figcaption>Mr. Lawrence Mbwega</figcaption>
+              </figure>
+          </div>
+          <div>
+              <figure>
+                  <img src="img/Ms. Hellen Namazzi.png" alt="Ms. Hellen Namazzi">
+                  <figcaption>Ms. Hellen Namazzi</figcaption>
+              </figure>
+          </div>
+      </section>
+       <section id="mission" class="tab-content active">
+          <h2>Our Mission</h2>
+          <p>To develop academic and other talents of students in a truly humane and Christian environment in a Catholic Tradition</p>
+  </section>   
+  <section id="vision" class="tab-content active">
+          <h2>Our Vision</h2>
+          <p>To be the best centre of holistic learning at secondary education with a global impact.</p>
+  </section>
+  <section id="values" class="tab-content active">
+      <h2>Our Core Values</h2>
+      <ol>
+          <li>Prayer</li>
+          <li>Honesty</li>
+          <li>Self control</li>
+          <li>Thinking Big</li>
+          <li>Respect and Obedience</li>
+          <li>Generosity-Networking</li>
+         
+      </ol>
+
+  </section>
+    <footer>
+      <section id="contact">
+        <h2><a href="./contact.html">Contact Us</a></h2>
+
+        <p>
+          <i class="fa-solid fa-envelope">&nbsp;</i>Email:
+          info@SecondarySchool.edu
+        </p>
+        <p><i class="fa-solid fa-phone"></i>&nbsp;Phone: (+256) 43456-7890</p>
+      </section>
+      <p>&copy; 2025 Secondary School. All rights reserved.</p>
+    </footer>
+    <script defer src="js/about.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
     <link rel="icon" type="image/x-icon" href="img/web-icon.png">
     <link rel="stylesheet" href="./css/global.css" />
 
