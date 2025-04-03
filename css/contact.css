@@ -38,7 +38,6 @@ textarea {
   overflow: auto;
 }
 
-
 .name {
   margin-top: 20px;
 }
@@ -75,13 +74,12 @@ div.message {
   text-align: center;
 }
 
-
 textarea,
 input::placeholder {
   font-size: 1rem;
 }
 
-#send button {
+button#send {
   font-size: 1rem;
   padding: 10px;
   margin-bottom: 5px;
@@ -91,7 +89,7 @@ input::placeholder {
   background-color: rgb(160, 160, 238);
 }
 
-#send button:hover {
+button#send:hover {
   background-color: blue;
   color: white;
   cursor: pointer;
@@ -114,7 +112,6 @@ div.location {
   padding: 10px;
 }
 
-
 @media (max-width: 768px) {
   form {
     top: 10px;
@@ -127,7 +124,8 @@ div.location {
 }
 
 @media (max-width: 480px) {
-  input, textarea {
+  input,
+  textarea {
     width: 85%;
   }
 
@@ -140,8 +138,8 @@ div.location {
     margin-top: 10px;
   }
 
-   #send button {
-    width: 90%; 
+  #send button {
+    width: 90%;
     max-width: 200px;
   }
 }
